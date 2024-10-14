@@ -2,6 +2,8 @@ import { useState } from 'react'
 import forestImage from './forest-image.jpg'
 import { ForestList } from "./ForestList";
 import { TreeType } from "./TreeType";
+import { ParkImages } from "./ParkImages";
+
 import './App.css'
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+      </div>
+      <div>
+        <ParkImages />
       </div>
       <div>
       <h4>
